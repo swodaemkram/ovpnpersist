@@ -13,11 +13,11 @@
 
 int main(void) {
 
-	printf("I am Running and Mark Is Cool");
 
-	if ( system("ping -c 3 10.10.0.5") == 0)
+	if ( system("ping -c 3 10.10.0.5") != 0)
+
 	{
-		printf("Failed");
+		printf("\nFailed\n");
 	}
 
 	exit(0);
