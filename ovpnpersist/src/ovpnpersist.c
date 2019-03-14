@@ -12,8 +12,11 @@
 #include <stdlib.h>
 
 int main(void) {
-	if ( system("ping -c 3 10.10.0.5") == 0)
-	{
-		printf("Failed");
-	}
+
+	printf("I am Running and Mark Is Cool");
+
+	//if ( system("ping -c 3 10.10.0.5") == 0)
+	//{
+	//	printf("Failed");
+	//}
 }
