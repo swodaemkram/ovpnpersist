@@ -3,7 +3,7 @@
  Name        : ovpnpersist.c
  Author      : Mark Meadows
  Version     : 00.00.02
- Copyright   : Your copyright notice
+ Copyright   : copyright Mark Meadows
  Description : ovpnpersist in C, Ansi-style
  ============================================================================
  */
@@ -12,6 +12,8 @@
 #include <stdlib.h>
 
 int main(void) {
-	puts("ovpnpersist"); /* prints ovpnpersist */
-	return EXIT_SUCCESS;
+	if ( system("ping -c 3 10.10.0.5") == 0)
+	{
+		printf("Failed");
+	}
 }
