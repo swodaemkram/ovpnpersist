@@ -2,7 +2,7 @@
  ============================================================================
  Name        : ovpnpersist.c
  Author      : Mark Meadows
- Version     :
+ Version     : 00.00.01
  Copyright   : Your copyright notice
  Description : ovpnpersist in C, Ansi-style
  ============================================================================
